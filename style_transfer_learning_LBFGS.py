@@ -215,8 +215,6 @@ def run_style_transfer(cnn, normalization_mean, normalization_std, content_img, 
 output = run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
                             content_img, style_img, input_img)
 
-
 imshow(content_img, title='content Image')
 imshow(style_img, title='style Image')
 imshow(output, title='Output Image')
-
